@@ -1,0 +1,34 @@
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	background-color: rgb(93, 93, 93);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fdf1e7;
+	margin: none;
+}
+
+#canvas {
+	min-width: 1000px;
+	min-height: 600px;
+}
+
+#legend {
+	padding-top: 30px;
+}
+
+#tooltip {
+	visibility: hidden;
+	min-height: 160px;
+	width: 200px;
+	margin-top: 2px;
+	font-size: 24px;
+	margin-bottom: 5px;
+	text-align: center;
+}
